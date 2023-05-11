@@ -1,9 +1,9 @@
-import pumaUrban from './shoe1.jpg';
-import vansStyle from './vans.jpg';
-import nikeSport from './nike.jpg';
-import nikeGolden from './nike2.jpg';
-import aboutImg from './about.jpg';
-import streetImg from './street.jpg';
+import pumaUrban from './shoe1.webp';
+import vansStyle from './vans.webp';
+import nikeSport from './nike.webp';
+import nikeGolden from './nike2.webp';
+import aboutImg from './about.webp';
+import streetImg from './street.webp';
 
 export default {
   pumaUrban, vansStyle, nikeSport, nikeGolden, aboutImg, streetImg
