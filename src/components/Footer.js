@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-function Footer() {
+const Footer = forwardRef((props, ref) => {
   return (
-    <div className='bg-black text-white px-4'>
+    <div ref={ref} className='bg-black text-white px-4'>
       <div className='sm:flex sm:justify-around'>
         <div className='py-4'>
           <h1 className='text-xl font-bold pb-2'>Contact</h1>
@@ -27,6 +27,6 @@ function Footer() {
       </div>
     </div>
   )
-}
+});
 
 export default Footer

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-function Latest() {
+const Latest = forwardRef((props, ref) => {
   return (
-    <div>
+    <div ref={ref}>
       <h1 className='text-2xl px-4 pt-6 pb-2'>Special Collections</h1>
       <div className='flex flex-col items-center w-full gap-3 md:flex-row md:px-4'>
         <div className='relative z-10 bg-[url(./img/shoe-new2.webp)] w-11/12 h-[400px] bg-cover bg-center lg:h-[600px]'>
@@ -20,6 +20,6 @@ function Latest() {
       </div>
     </div>
   )
-}
+});
 
 export default Latest
